@@ -15,3 +15,5 @@ and let's see if jekyll build works
 use subprocess.run instead of subprocess.call
 
 can't find jekyll command, so did source ~/.profile in the terminal session running the python webook script.
+
+ran jekyll build in the webhook.py location, not in the copy-of-cool-site location, so adding an os.chdir into the right location, then run jeykll build
