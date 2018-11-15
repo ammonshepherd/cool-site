@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "New Post"
+date:   2018-11-15 15:04:25 -0500
+categories: jekyll update
+---
+
+Here's a post that I just made.
