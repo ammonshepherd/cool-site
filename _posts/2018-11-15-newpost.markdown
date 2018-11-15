@@ -13,3 +13,5 @@ and here's another line
 and let's see if jekyll build works
 
 use subprocess.run instead of subprocess.call
+
+can't find jekyll command, so did source ~/.profile in the terminal session running the python webook script.
