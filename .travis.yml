@@ -24,9 +24,10 @@ before_deploy:
   - eval "$(ssh-agent -s)"
   - chmod 600 /tmp/deployed_rsa
   - ssh-add /tmp/deployed_rsa 
+  - pwd
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -avz --delete-after ./_site $SLabUser@$SLabServer:$SLabPath/
+  script: ssh -vvv $SLabUser@$SLabServer
   on:
     branch: master
